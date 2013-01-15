@@ -1,0 +1,25 @@
+{
+    "name":        "bmatzner/mediaelement-bundle",
+    "type":        "symfony-bundle",
+    "description": "MediaElement.js Bundle for Symfony2",
+    "keywords":    ["html5", "video", "audio", "jquery", "javascript", "symfony"],
+    "homepage":    "http://mediaelementjs.com/",
+    "license":     ["GPLv2", "MIT"],
+    "authors":     [
+        {
+            "name":     "Bernd Matzner",
+            "email":    "bernd@matznermatzner.de",
+            "homepage": "http://berndmatzner.de"
+        }
+    ],
+    "require":     {
+        "symfony/framework-bundle": ">=2.1",
+        "bmatzner/jquery-bundle":   "*"
+    },
+    "autoload":    {
+        "psr-0": {
+            "Bmatzner\\MediaElementBundle": ""
+        }
+    },
+    "target-dir":  "Bmatzner/MediaElementBundle"
+}
