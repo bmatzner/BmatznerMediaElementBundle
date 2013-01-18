@@ -60,6 +60,7 @@ Refer to the desired files in your HTML template, e.g.
 
 ``` html
 <link rel="stylesheet" type="text/css" href="{{ asset('bundles/bmatznermediaelement/mediaelementplayer.min.css') }}" />
+<script type="text/javascript" src="{{ asset('bundles/bmatznerjquery/jquery.min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('bundles/bmatznermediaelement/mediaelement-and-player.min.js') }}"></script>
 ```
 
