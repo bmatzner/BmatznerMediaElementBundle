@@ -2,7 +2,7 @@
 
 ## Current Version
 
-MediaElement.js v2.13.1
+MediaElement.js v2.13.2
 
 ## Installation
 
